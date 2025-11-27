@@ -9,20 +9,29 @@ Endpoints
  1. Create Product
 Method: POST
 Endpoint: /api/products
-Description: Create a new product with details like name, description, price, quantity, and purchase date
- 2. Get All Products
+Description: Create a new product with details like name, description, price, quantity, and purchase date.
+{
+    "name":"Apple",
+  "description": "Sample Product",
+  "purchased": "2024-01-15",
+  "qty": 10,
+  "price": 9999
+}```
+
+```
+ 3. Get All Products
 Method: GET
 Endpoint: /api/products
 Description: Retrieve a list of all products in the system
- 3. Get Product by ID
+ 4. Get Product by ID
 Method: GET
 Endpoint: /api/products/:id
 Description: Retrieve details of a specific product by its ID
- 4. Update Product
+ 5. Update Product
 Method: PUT
 Endpoint: /api/products/:id
 Description: Update an existing product's information
- 5. Delete Product
+ 6. Delete Product
 Method: DELETE
 Endpoint: /api/products/:id
 Description: Remove a product from the system
