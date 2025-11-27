@@ -1,5 +1,5 @@
 # FristDemoPrj-3
-Product API Collection
+Product API Collection.
 
 A comprehensive Postman collection for managing products through a RESTful API. This collection includes all CRUD (Create, Read, Update, Delete) operations for product management.
 
