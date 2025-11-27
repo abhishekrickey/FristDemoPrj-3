@@ -32,7 +32,7 @@ Update Product
 Delete Product
  - DELETE http://localhost:8123/products.api/delete/{id}
 
-# 1. Create Product
+ 1. Create Product
 
 ``` 
 http://localhost:8123/product.api/create
@@ -63,11 +63,23 @@ Description: Retrieve details of a specific product by its ID
 
 
  4. Update Product
+ 5. 
 Method: PUT
 Endpoint: /products.api/update/:id
 Description: Update an existing product's information we update produst Apple to another product
 
-```http://localhost:8123/product.api/update/1 ```
+```
+http://localhost:8123/product.api/update/1
+
+{
+    "name":"oppo-new-model",
+  "description": "Updated Product",
+  "purchased": "2024-01-20",
+  "qty": 15,
+  "price": 10999.99
+}
+
+ ```
 
 ```
 {
@@ -79,14 +91,19 @@ Description: Update an existing product's information we update produst Apple to
 }
 
 ```
+
  5. Delete Product
     
 Method: DELETE
 Endpoint: /products.api/delete/:id
 Description: Remove a product from the system
 
-``` http://localhost:8123/product.api/delete/1
-Product with ID 1 deleted successfully  ```
+```
+http://localhost:8123/product.api/delete/1
+
+Product with ID 1 deleted successfully
+
+```
 
 
 Usage
