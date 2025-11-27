@@ -10,14 +10,13 @@ Endpoints
 Method: POST
 Endpoint: /api/products
 Description: Create a new product with details like name, description, price, quantity, and purchase date.
+```
 {
     "name":"Apple",
   "description": "Sample Product",
   "purchased": "2024-01-15",
   "qty": 10,
   "price": 9999
-}```
-
 ```
  3. Get All Products
 Method: GET
